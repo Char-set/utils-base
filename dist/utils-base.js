@@ -7,7 +7,7 @@
 		exports["utilsBase"] = factory();
 	else
 		root["utilsBase"] = factory();
-})(window, function() {
+})(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -167,5 +167,5 @@ const largeNumer = (a, b) => {
 
 
 /***/ })
-/******/ ])["default"];
+/******/ ]);
 });

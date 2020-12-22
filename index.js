@@ -1,5 +1,3 @@
-import { mode } from "./webpack.config";
-
 if(process.env.NODE_ENV === 'production') {
     module.exports = require('./dist/utils-base.min.js')
 } else {

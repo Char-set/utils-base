@@ -1,6 +1,6 @@
 {
     "name": "utils-base",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "通用方法合集",
     "main": "index.js",
     "scripts": {
@@ -17,5 +17,10 @@
         "webpack": "^4.29.0",
         "webpack-cli": "^3.2.1",
         "webpack-dev-server": "^3.1.14"
+    },
+    "repository": {
+        
+        "type": "git",
+        "url": "https://github.com/Char-set/utils-base.git"
     }
 }

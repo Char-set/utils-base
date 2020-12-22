@@ -11,7 +11,7 @@ module.exports = {
 		filename: "[name].js",
 		library:'utilsBase',
 		libraryTarget:'umd',
-		libraryExport:'default'
+		globalObject: 'this'
 	},
 	optimization: {
 		minimize: true,
