@@ -100,6 +100,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paramsFormat", function() { return paramsFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "largeNumer", function() { return largeNumer; });
 const paramsFormat = (url) => {
     var qInd = url.indexOf("?");
     var sharpInd = url.indexOf("#"); //路由
@@ -162,10 +164,7 @@ const largeNumer = (a, b) => {
     return result;
 }
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    paramsFormat,
-    largeNumer
-});
+
 
 /***/ })
 /******/ ])["default"];
